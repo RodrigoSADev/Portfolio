@@ -1,0 +1,14 @@
+.education-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  img {
+    width: 60px;
+    border-radius: 0.5rem;
+  }
+}
+
+.divider {
+  border: 1px solid #acacac;
+  margin: 1rem 0;
+}
