@@ -36,9 +36,28 @@
   }
 }
 
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
 h2 {
   text-align: center;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: purple;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
