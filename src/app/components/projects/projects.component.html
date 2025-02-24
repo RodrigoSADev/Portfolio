@@ -1,0 +1,27 @@
+<section class="container">
+  <h2>Projetos</h2>
+  <p-carousel
+    [value]="projects"
+    [numVisible]="2"
+    [numScroll]="1"
+    [circular]="true"
+    [responsiveOptions]="responsiveOptions"
+  >
+    <ng-template let-project #item>
+      <p-card>
+        <ng-template #header>
+          <img alt="Card" src="{{ project.image }}" />
+        </ng-template>
+        <ng-template #title> {{ project.name }} </ng-template>
+
+        <ng-template #footer>
+          <div class="technologies-container">
+            @for (technology of project.technologies; track technology) {
+            <p class="technology">{{ technology }}</p>
+            }
+          </div>
+        </ng-template>
+      </p-card>
+    </ng-template>
+  </p-carousel>
+</section>
