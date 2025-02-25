@@ -79,13 +79,7 @@ export class ProjectsComponent {
   ];
   responsiveOptions: any[] | undefined;
 
-  // constructor(private productService: ProductService) {}
-
   ngOnInit() {
-    // this.productService.getProductsSmall().then((products) => {
-    //     this.products = products;
-    // });
-
     this.responsiveOptions = [
       {
         breakpoint: '1400px',
@@ -94,7 +88,7 @@ export class ProjectsComponent {
       },
       {
         breakpoint: '1199px',
-        numVisible: 3,
+        numVisible: 1,
         numScroll: 1,
       },
       {
@@ -109,15 +103,4 @@ export class ProjectsComponent {
       },
     ];
   }
-
-  // getSeverity(status: string) {
-  //   switch (status) {
-  //     case 'INSTOCK':
-  //       return 'success';
-  //     case 'LOWSTOCK':
-  //       return 'warn';
-  //     case 'OUTOFSTOCK':
-  //       return 'danger';
-  //   }
-  // }
 }
