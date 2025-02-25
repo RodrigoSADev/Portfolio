@@ -89,18 +89,6 @@
   margin: 1rem 0;
 }
 
-.btn {
-  background-color: purple;
-  padding: 0.7rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  &:hover {
-    transform: scale(1.05);
-  }
-}
-
 .p-carousel-indicator-active > .p-carousel-indicator-button {
   background-color: purple !important;
 }

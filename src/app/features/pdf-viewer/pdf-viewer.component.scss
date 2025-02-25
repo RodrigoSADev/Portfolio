@@ -1,4 +1,18 @@
+@import "../../../variables.scss";
+
 .btn-container {
   display: flex;
   justify-content: center;
+}
+
+.btn {
+  background-color: $primary-color;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
