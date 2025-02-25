@@ -1,0 +1,20 @@
+.contact-description {
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.2);
+    color: purple;
+  }
+}
