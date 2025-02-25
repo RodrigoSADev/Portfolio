@@ -1,12 +1,22 @@
+@import "../../../styles.scss";
+
+.subtitle {
+  font-size: 3rem;
+}
+
 .contact-description {
   text-align: center;
+  font-family: $secondary-font;
+  font-size: 1.3rem;
+  color: $gray-color;
+  margin-bottom: 2rem;
 }
 
 .contact-icons {
   display: flex;
   gap: 1rem;
   justify-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 
 .icon {
@@ -15,6 +25,6 @@
   transition: all 0.3s ease;
   &:hover {
     transform: scale(1.2);
-    color: purple;
+    color: $primary-color;
   }
 }
