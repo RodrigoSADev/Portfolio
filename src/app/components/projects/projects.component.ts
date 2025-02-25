@@ -46,7 +46,7 @@ export class ProjectsComponent {
       deploy: 'https://dayvocional.vercel.app/inicio',
     },
     {
-      image: 'assets/projects/daily.jpg',
+      image: 'assets/projects/daily-news.jpg',
       alt: 'Project Daily News',
       name: 'Daily News',
       technologies: [
@@ -75,6 +75,23 @@ export class ProjectsComponent {
       ],
       github: 'https://github.com/RodrigoSADev/Meteora',
       deploy: 'https://meteora-rs.netlify.app/home',
+    },
+    {
+      image: 'assets/projects/buscante.jpg',
+      alt: 'Project Buscante',
+      name: 'Buscante',
+      technologies: [
+        'Angular',
+        'TypeScript',
+        'RxJS',
+        'Bootstrap',
+        'Karma',
+        'Jasmine',
+        'Infinite Scroll',
+        'Google Books API',
+      ],
+      github: 'https://github.com/RodrigoSADev/Buscante',
+      deploy: 'https://buscante-rs.netlify.app/home',
     },
   ];
   responsiveOptions: any[] | undefined;
