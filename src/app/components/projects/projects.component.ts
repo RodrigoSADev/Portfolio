@@ -13,6 +13,22 @@ import { TagModule } from 'primeng/tag';
 export class ProjectsComponent {
   projects = [
     {
+      image: 'assets/projects/task-board.jpg',
+      alt: 'Project Task Board',
+      name: 'Task Board',
+      technologies: [
+        'Angular',
+        'TypeScript',
+        'SCSS',
+        'Angular Material',
+        'Jest',
+        'CI/CD',
+        'Docker',
+      ],
+      github: '',
+      deploy: '',
+    },
+    {
       image: 'assets/projects/food-now.jpg',
       alt: 'Project Food Now',
       name: 'Food Now',
