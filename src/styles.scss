@@ -1,11 +1,14 @@
 @import "primeicons/primeicons.css";
+@import "./variables.scss";
+@import "./reset.scss";
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 23rem;
 }
 
 @media (min-width: 576px) {
@@ -38,18 +41,12 @@
   }
 }
 
-h1 {
-  text-align: center;
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
 h2 {
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
+  font-family: $primary-font;
 }
 
 .btn {
