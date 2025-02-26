@@ -20,6 +20,11 @@
     "functionTwo": "Intern Web Developer",
     "present": "Actual"
   },
+  "education": {
+    "title": "Education",
+    "university": "Estácio de Sá University",
+    "course": "Bachelor in Information Systems"
+  },
   "projects": {
     "title": "Projects",
     "description": "This is the projects page"

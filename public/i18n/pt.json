@@ -20,6 +20,11 @@
     "functionTwo": "Estagiário Desenvolvedor Web",
     "present": "Atual"
   },
+  "education": {
+    "title": "Formações",
+    "university": "Universidade Estácio de Sá",
+    "course": "Bacharel em Sistemas de Informação"
+  },
   "projects": {
     "title": "Projetos",
     "description": "Esta é a página de projetos"
