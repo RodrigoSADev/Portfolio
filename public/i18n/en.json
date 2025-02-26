@@ -1,0 +1,19 @@
+{
+  "header": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About",
+    "description": "This is the about page"
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "This is the projects page"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "This is the contact page"
+  }
+}

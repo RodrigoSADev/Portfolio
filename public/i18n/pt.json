@@ -1,0 +1,19 @@
+{
+  "header": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "about": {
+    "title": "Sobre",
+    "description": "Esta é a página sobre"
+  },
+  "projects": {
+    "title": "Projetos",
+    "description": "Esta é a página de projetos"
+  },
+  "contact": {
+    "title": "Contato",
+    "description": "Esta é a página de contato"
+  }
+}
