@@ -1,13 +1,16 @@
 @import "../../../variables.scss";
 
+.section-title-span {
+  color: $gray-color;
+}
+
 .about-description {
   font-size: 1rem;
-  margin-bottom: 1rem;
   font-family: $secondary-font;
   color: $gray-color;
   text-align: center;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 2rem auto 0 auto;
 }
 
 .about-content {
