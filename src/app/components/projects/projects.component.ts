@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { TranslateModule } from '@ngx-translate/core';
 import { CardModule } from 'primeng/card';
 import { CarouselModule } from 'primeng/carousel';
-import { TagModule } from 'primeng/tag';
 
 @Component({
   selector: 'app-projects',
-  imports: [CarouselModule, ButtonModule, TagModule, CardModule],
+  imports: [CarouselModule, CardModule, TranslateModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss',
 })
