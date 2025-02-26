@@ -14,6 +14,12 @@
     "description": "With over 2 years of experience, I create intuitive and customized interfaces. Bachelor's degree in Information Systems, with experience in developing responsive and scalable applications. Proficient in agile methodologies, modern development practices, and automated testing.",
     "specialized": "Specialized in"
   },
+  "experiences": {
+    "title": "Experiences",
+    "functionOne": "Front-End Developer",
+    "functionTwo": "Intern Web Developer",
+    "present": "Actual"
+  },
   "projects": {
     "title": "Projects",
     "description": "This is the projects page"
