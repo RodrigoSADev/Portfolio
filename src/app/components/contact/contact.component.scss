@@ -2,12 +2,13 @@
 
 .section-title {
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .contact-description {
   text-align: center;
   font-family: $secondary-font;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: $gray-color;
   margin-bottom: 2rem;
 }
@@ -16,7 +17,7 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
-  margin-bottom: 10rem;
+  margin-bottom: 12rem;
 }
 
 .icon {
