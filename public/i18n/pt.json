@@ -8,6 +8,12 @@
     "profession": "Desenvolvedor Front-End",
     "button": "Currículo"
   },
+  "about": {
+    "I": "Sou",
+    "function": "Desenvolvedor Web",
+    "description": "Com mais de 2 anos de experiência, crio interfaces intuitivas e personalizadas. Bacharel em Sistemas de Informação, com experiência no desenvolvimento de aplicações responsivas e escaláveis. Proficiente em metodologias ágeis, práticas modernas de desenvolvimento e testes automatizados. ",
+    "specialized": "Especializado em"
+  },
   "projects": {
     "title": "Projetos",
     "description": "Esta é a página de projetos"

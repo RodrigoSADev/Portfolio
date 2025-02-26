@@ -8,6 +8,12 @@
     "profession": "Front-End Developer",
     "button": "Resume"
   },
+  "about": {
+    "I": "I am a",
+    "function": "Web Developer",
+    "description": "With over 2 years of experience, I create intuitive and customized interfaces. Bachelor's degree in Information Systems, with experience in developing responsive and scalable applications. Proficient in agile methodologies, modern development practices, and automated testing.",
+    "specialized": "Specialized in"
+  },
   "projects": {
     "title": "Projects",
     "description": "This is the projects page"
