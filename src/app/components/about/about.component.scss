@@ -5,12 +5,13 @@
 }
 
 .about-description {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: $secondary-font;
   color: $gray-color;
   text-align: center;
   max-width: 80%;
   margin: 2rem auto 0 auto;
+  line-height: 2;
 }
 
 .about-content {
