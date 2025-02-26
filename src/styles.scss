@@ -88,6 +88,81 @@
   margin: 1rem 0;
 }
 
+// Anime Up
+
+.animeUp {
+  transform: translateY(20px);
+  opacity: 0;
+  animation: animeUp 1s forwards;
+}
+
+@keyframes animeUp {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+// Anime Left
+
+.animeLeft {
+  transform: translateX(-20px);
+  opacity: 0;
+  animation: animeLeft 1s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+// Anime Right
+
+.animeRight {
+  transform: translateX(40px);
+  opacity: 0;
+  animation: animeRight 1s forwards;
+}
+
+@keyframes animeRight {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+// Zoom
+
+.zoom {
+  transform: scale(0.5);
+  opacity: 0;
+  animation: zoom 1s forwards;
+}
+
+@keyframes zoom {
+  to {
+    transform: initial;
+    opacity: initial;
+  }
+}
+
+// Fade In
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: initial;
+  }
+}
+
+// PrimeNG
+
 .p-carousel-indicator-active > .p-carousel-indicator-button {
   background-color: $primary-color !important;
 }
