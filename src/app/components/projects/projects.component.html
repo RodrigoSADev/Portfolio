@@ -24,6 +24,16 @@
             <p class="technology">{{ technology }}</p>
             }
           </div>
+          <div class="actions-container">
+            <a href="{{ project.github }}" target="_blank">
+              <i class="pi pi-github icon"></i>
+              <p>Github</p>
+            </a>
+            <a href="{{ project.deploy }}" target="_blank">
+              <i class="pi pi-desktop icon"></i>
+              <p>Deploy</p>
+            </a>
+          </div>
         </ng-template>
       </p-card>
     </ng-template>
