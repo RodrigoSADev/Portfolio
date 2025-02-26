@@ -4,9 +4,9 @@
     "projects": "Projetos",
     "contact": "Contato"
   },
-  "about": {
-    "title": "Sobre",
-    "description": "Esta é a página sobre"
+  "home": {
+    "profession": "Desenvolvedor Front-End",
+    "button": "Currículo"
   },
   "projects": {
     "title": "Projetos",

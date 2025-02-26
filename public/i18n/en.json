@@ -4,9 +4,9 @@
     "projects": "Projects",
     "contact": "Contact"
   },
-  "about": {
-    "title": "About",
-    "description": "This is the about page"
+  "home": {
+    "profession": "Front-End Developer",
+    "button": "Resume"
   },
   "projects": {
     "title": "Projects",
