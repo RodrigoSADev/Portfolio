@@ -2,15 +2,21 @@
   <nav>
     <ul class="links-container">
       <li class="nav-link">
-        <a (click)="onScrollTo('about')">Sobre</a>
+        <a (click)="onScrollTo('about')">{{ "header.about" | translate }}</a>
       </li>
       <li class="nav-link">
-        <a (click)="onScrollTo('projects')">Projetos</a>
+        <a (click)="onScrollTo('projects')">{{
+          "header.projects" | translate
+        }}</a>
       </li>
       <li class="nav-link">
-        <a (click)="onScrollTo('contact')">Contato</a>
+        <a (click)="onScrollTo('contact')">{{
+          "header.contact" | translate
+        }}</a>
       </li>
     </ul>
   </nav>
-  <div class="actions-container"></div>
+  <div class="actions-container">
+    <app-language-selector />
+  </div>
 </header>
