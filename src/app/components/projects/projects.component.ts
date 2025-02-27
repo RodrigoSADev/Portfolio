@@ -2,10 +2,16 @@ import { Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { CardModule } from 'primeng/card';
 import { CarouselModule } from 'primeng/carousel';
+import { ScrollAnimationDirective } from '../../directives/scroll-animation.directive';
 
 @Component({
   selector: 'app-projects',
-  imports: [CarouselModule, CardModule, TranslateModule],
+  imports: [
+    CarouselModule,
+    CardModule,
+    TranslateModule,
+    ScrollAnimationDirective,
+  ],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss',
 })
