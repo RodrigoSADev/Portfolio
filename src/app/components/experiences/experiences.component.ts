@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
+import { ScrollAnimationDirective } from '../../directives/scroll-animation.directive';
 
 @Component({
   selector: 'app-experiences',
-  imports: [TranslateModule],
+  imports: [TranslateModule, ScrollAnimationDirective],
   templateUrl: './experiences.component.html',
   styleUrl: './experiences.component.scss',
 })
