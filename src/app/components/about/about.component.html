@@ -1,19 +1,21 @@
 <section class="container" id="about">
-  <h2 class="section-title">
-    <span class="section-title-span">
-      {{ "about.I" | translate }}
-    </span>
-    {{ "about.function" | translate }}
-  </h2>
-  <h2 class="section-title">
-    <span class="section-title-span">
-      {{ "about.specialized" | translate }}
-    </span>
-    Angular
-  </h2>
-  <p class="about-description">
-    {{ "about.description" | translate }}
-  </p>
+  <div [appScrollAnimation]="'animeUp'">
+    <h2 class="section-title">
+      <span class="section-title-span">
+        {{ "about.I" | translate }}
+      </span>
+      {{ "about.function" | translate }}
+    </h2>
+    <h2 class="section-title">
+      <span class="section-title-span">
+        {{ "about.specialized" | translate }}
+      </span>
+      Angular
+    </h2>
+    <p class="about-description">
+      {{ "about.description" | translate }}
+    </p>
+  </div>
   <div class="about-content">
     <app-experiences />
     <app-education />
