@@ -30,8 +30,8 @@ export class ProjectsComponent {
         'CI/CD',
         'Docker',
       ],
-      github: '',
-      deploy: '',
+      github: 'https://github.com/RodrigoSADev/Task-Board',
+      deploy: 'https://task-board-ruddy.vercel.app/',
     },
     {
       image: 'assets/projects/food-now.jpg',
