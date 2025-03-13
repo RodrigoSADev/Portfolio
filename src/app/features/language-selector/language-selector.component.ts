@@ -17,5 +17,6 @@ export class LanguageSelectorComponent {
   toggleLanguage() {
     this.currentLanguage = this.currentLanguage === 'pt' ? 'en' : 'pt';
     this.translateService.use(this.currentLanguage);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
