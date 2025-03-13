@@ -169,6 +169,20 @@
   }
 }
 
+// Zoom
+.zoom {
+  transform: scale(0.5);
+  opacity: 0;
+  animation: zoom 1s forwards;
+}
+
+@keyframes zoom {
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 // PrimeNG
 
 .p-carousel-indicator-active > .p-carousel-indicator-button {
