@@ -15,3 +15,7 @@ Este portfólio foi desenvolvido para apresentar minhas habilidades e experiênc
 ## Screenshots
 
 https://github.com/user-attachments/assets/30c82342-9ecd-443f-8fe4-618901bd836a
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
