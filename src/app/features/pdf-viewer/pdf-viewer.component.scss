@@ -6,6 +6,9 @@
 }
 
 .btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   background-color: $primary-color;
   font-family: $primary-font;
   font-size: 1.1rem;
