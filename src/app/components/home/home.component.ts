@@ -1,10 +1,10 @@
 import { Component, ElementRef, HostListener, inject } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
-import { PdfViewerComponent } from '../../features/pdf-viewer/pdf-viewer.component';
+import { DownloadCvComponent } from '../../features/download-cv/download-cv.component';
 
 @Component({
   selector: 'app-home',
-  imports: [PdfViewerComponent, TranslateModule],
+  imports: [DownloadCvComponent, TranslateModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
